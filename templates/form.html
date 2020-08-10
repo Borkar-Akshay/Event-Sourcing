@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Form</title>
+    <title>Post Event</title>
 </head>
 <body>
 <a href="{{url_for('home')}}">back</a>
-<form action = "{{url_for('New_Event')}}" method = "POST">
+<form action = "{{url_for('new_event')}}" method = "POST">
     <P>TYPE ( INCREMENT / DECREMENT ):<input type="text" name="Type"></P>
     <P>VALUE ( 1 / 2 / 3 / 4 / 5 ):<input type="number" name="Value"></P>
-    <P><input type="submit" name="SUBMIT"></P>
+    <P><input type="submit" name="POST"></P>
 </form>
 </body>
 </html>
