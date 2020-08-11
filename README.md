@@ -14,14 +14,14 @@ Install the required dependencies for this project by executing this command
 ```bash
 pip install -r requirements.txt
 ```
-It has to two python files Api.py and Producer_Service.py which has to be run in two different terminal.
-- First run the Api.py file. Then click the link http://127.0.0.1:5000/ for the UI
+It has to two python files app.py and service.py which has to be run in two different terminal.
+- First run the app.py file. Then click the link http://127.0.0.1:5000/ for the UI
 ```bash
-python Api.py
+python app.py
 ```
-- Then in different terminal run Producer_Service.py. This will continuously post random event to the server.
+- Then in different terminal run service.py. This will continuously post random event to the server.
 ```bash
-python Producer_Service.py
+python service.py
 ```
 # Challenge Instructions:
 
