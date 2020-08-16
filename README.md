@@ -14,7 +14,7 @@ Install the required dependencies for this project by executing this command
 ```bash
 pip install -r requirements.txt
 ```
-It has to two python files app.py and service.py which has to be run in two different terminal.
+It has two python files app.py and service.py which has to be run in two different terminal.
 - First run the app.py file. Then click the link http://127.0.0.1:5000/ for the UI
 ```bash
 python app.py
